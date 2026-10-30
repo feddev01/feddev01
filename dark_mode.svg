@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="577" viewBox="0 0 1000 577" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14px">
+<style>
+text { white-space: pre; }
+.l { opacity: 0; animation: show 0s forwards; }
+.face { fill: #c9d1d9; font-size: 8px; }
+.cur { opacity: 0; animation-name: cur; }
+.blink { animation: show 0s forwards, blink 1s step-end infinite; }
+@keyframes show { to { opacity: 1; } }
+@keyframes cur { from, to { opacity: 1; } }
+@keyframes type { to { transform: translateX(var(--w)); } }
+@keyframes blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .l, .blink { opacity: 1; animation: none; }
+  .cur { animation: none; }
+  .type { display: none; }
+}
+</style>
+<rect width="1000" height="577" rx="12" fill="#0d1117" stroke="#30363d"/>
+<path d="M0 12 a12 12 0 0 1 12 -12 h976 a12 12 0 0 1 12 12 v22 h-1000 z" fill="#161b22"/>
+<line x1="0" y1="34" x2="1000" y2="34" stroke="#30363d"/>
+<circle cx="20" cy="17" r="6" fill="#ff5f57"/><circle cx="40" cy="17" r="6" fill="#febc2e"/><circle cx="60" cy="17" r="6" fill="#28c840"/>
+<text x="500.0" y="22" text-anchor="middle" fill="#8b949e">mohan@feddev01: ~ — tmux</text>
+<line x1="510" y1="34" x2="510" y2="553" stroke="#30363d"/>
+<text x="14" y="62" class="l " style="animation-delay:0.20s"><tspan fill="#7ee787">mohan@feddev01</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#c9d1d9">cat face.txt</tspan></text>
+<g class="type" style="--w:100.8px;animation:type 0.72s steps(12) 0.60s forwards"><rect x="165.2" y="49" width="111.2" height="18" fill="#0d1117"/><rect x="165.2" y="49" width="8.4" height="16" fill="#c9d1d9" class="cur" style="animation-delay:0.20s;animation-duration:1.12s"/></g>
+<text x="53.4" y="80" class="l face" style="animation-delay:1.57s">                                   MMMMMBBMM&amp;H#B9</text>
+<text x="53.4" y="89" class="l face" style="animation-delay:1.60s">                                MM3.2S25ShXSGGHM9@MMMM@</text>
+<text x="53.4" y="98" class="l face" style="animation-delay:1.63s">                            MMA2.....r....i3sAG9SX2i39A@HMM</text>
+<text x="53.4" y="107" class="l face" style="animation-delay:1.66s">                          M&amp;...........2i;........5ASrhGAHh5MM</text>
+<text x="53.4" y="116" class="l face" style="animation-delay:1.69s">                        M2...........,,.............5...232rs;sG</text>
+<text x="53.4" y="125" class="l face" style="animation-delay:1.72s">                   M  Mi....................i,...,.,......r......A</text>
+<text x="53.4" y="134" class="l face" style="animation-delay:1.75s">                   MMs..............,...............3GH....SGG&amp;3r.,M</text>
+<text x="53.4" y="143" class="l face" style="animation-delay:1.78s">                  MH......................;hr........;B..........hAs9M</text>
+<text x="53.4" y="152" class="l face" style="animation-delay:1.81s">                 Mr....................;5G&amp;9#@M@#H99HG95,...........XXM</text>
+<text x="53.4" y="161" class="l face" style="animation-delay:1.84s">                 5......;............:3GBBMMBMMMMMMMMMMM#r............ABM</text>
+<text x="53.4" y="170" class="l face" style="animation-delay:1.87s">                r....................iA@MMMMB@BMMMMMMMMMMBAr...........SMM</text>
+<text x="53.4" y="179" class="l face" style="animation-delay:1.90s">               ........,.......h....,29@MMB@@BBMMMMMMMMMMM@#Xi......r...hMM#</text>
+<text x="53.4" y="188" class="l face" style="animation-delay:1.93s">              G........,......h&amp;....r9BB@MB@M@@@BBMBMBBBBBMBM9X..........&amp;  G</text>
+<text x="53.4" y="197" class="l face" style="animation-delay:1.96s">             H........i.......i..3..HBBB@@#@@9###H#HH#@#@BBMM@#2.........s&amp;</text>
+<text x="53.4" y="206" class="l face" style="animation-delay:1.99s">             M..,.....h......S@....#B@B@@#999&amp;9&amp;H&amp;G&amp;9##H9H#B#B&amp;S.........,2&amp;</text>
+<text x="53.4" y="215" class="l face" style="animation-delay:2.02s">             9..............@M....GMMB#H@###BBBMMMM@##@H9HH&amp;&amp;H&amp;X.........,;2M</text>
+<text x="53.4" y="224" class="l face" style="animation-delay:2.05s">            Mh....s........GM....5MMMMMMMMMMMMMMMMMMBBH#BB@&amp;GS3h..........s.5</text>
+<text x="53.4" y="233" class="l face" style="animation-delay:2.08s">            G.....M2......3@....GMHH95i......,3HMMMMMMBMMMMMMBX:..........2,.M</text>
+<text x="53.4" y="242" class="l face" style="animation-delay:2.11s">            ;.....#......:&amp;....9MMMMMMMMMMM#Ah....iA@MBMMMMMMMMS...........X.h&amp;</text>
+<text x="53.4" y="251" class="l face" style="animation-delay:2.14s">           M...;3.2......A,...9MMMMAs::i.....;5HBB9GHH9H#GAA&amp;#MMH...........XhsM</text>
+<text x="53.4" y="260" class="l face" style="animation-delay:2.17s">           S..33.............SMMMB&amp;5S3sAs..&amp;r....SMMM#Ss32..................G.hMM</text>
+<text x="53.4" y="269" class="l face" style="animation-delay:2.20s">          M..X@MX..h........MMMMB@@HSSHMMM&amp;3...,.sMMMMH.....h&amp;B@S;...........hiMMM</text>
+<text x="53.4" y="278" class="l face" style="animation-delay:2.23s">          h...MG3..&amp;.......rMMMMMMBB@95:......;XS9MMMMM.........s;...........i.:MGM</text>
+<text x="53.4" y="287" class="l face" style="animation-delay:2.26s">         M.....BS..:......rrMMMMMMMMMMMMMMMMMMMMMMMMMMM;..;2;h................5.XA5M</text>
+<text x="53.4" y="296" class="l face" style="animation-delay:2.29s">         M.........r......Sr3MMMMMMMMMMMMMMMMMMMMMMMMMMMi,...;:................,;BM#</text>
+<text x="53.4" y="305" class="l face" style="animation-delay:2.32s">         X.s,......,......BM.&amp;MMMMMMMMMM@GXi39BMMMMMMMMMAMMM&amp;32i.....X...........SGM</text>
+<text x="53.4" y="314" class="l face" style="animation-delay:2.35s">        B..M..............&amp;M@.5MMMMMMBS;.:23MMMMMMMMMMMMHiBMMMMS:.....M............s</text>
+<text x="53.4" y="323" class="l face" style="animation-delay:2.38s">       M...M...............MMM3,M#B&amp;,.sXHMMM5XH@#9MMMMM&amp;&amp;,h9#@BBr.................5,</text>
+<text x="53.4" y="332" class="l face" style="animation-delay:2.41s">       ..MiM...............&amp;MMMs#M5....3G2......;S#@G2..h,s9#@@#2M................;X</text>
+<text x="53.4" y="341" class="l face" style="animation-delay:2.44s">      2.M M.................5MMBGMG....5&amp;993,...........is.5##9&amp;.M.................s</text>
+<text x="53.4" y="350" class="l face" style="animation-delay:2.47s">     M.A MA..................s#MsMM.:2...MMi3h9HS5i.........@B&amp;...MM................</text>
+<text x="53.4" y="359" class="l face" style="animation-delay:2.50s">     S.MMBM:........;.....3...;#.M@5#MBS2MMMMMMMBMXrs.......M&amp;......................</text>
+<text x="53.4" y="368" class="l face" style="animation-delay:2.53s">     X.M,3........i.......sh...2.MB@@MMMM@5&amp;M@MMMMMMM..;s..@5....A............2.....</text>
+<text x="53.4" y="377" class="l face" style="animation-delay:2.56s"> M&amp;MM9.his......r.s........3...r.SH9BM@BMMM#Xi;..:;...3G53X:...S....:...:.....;.....</text>
+<text x="53.4" y="386" class="l face" style="animation-delay:2.59s">M&amp;@&amp;MM.:...........s............Ms&amp;99@@##BBG5hs25XsrsAGA&amp;.......M..#......M.........</text>
+<text x="53.4" y="395" class="l face" style="animation-delay:2.62s">H5:.......2B,5.....s............M&amp;MMBBM@GGSi.......hXhs..........M..M.....A.........</text>
+<text x="53.4" y="404" class="l face" style="animation-delay:2.65s">:......;.5SMB.#...,.2.2.........i3MMMMMMMMMB@B5X3SG52.............A..M.....h:.......</text>
+<text x="53.4" y="413" class="l face" style="animation-delay:2.68s">..2s...;..r@M;G....................sX#MMMMMM@@@MM@#Xs.,....A......@......:...A......</text>
+<text x="53.4" y="422" class="l face" style="animation-delay:2.71s">Xs..r..,....SM;r........................XAGH#HAA55i...MMM...M5.r..rM#.....h.........</text>
+<text x="53.4" y="431" class="l face" style="animation-delay:2.74s">h33i....,..,.i.,..................ri......................,M&amp;Bh@....HM&amp;....S........</text>
+<text x="53.4" y="440" class="l face" style="animation-delay:2.77s">h2233s:.....:r....i:...............hss.....................;&amp;5.BM....,MM............</text>
+<text x="53.4" y="449" class="l face" style="animation-delay:2.80s">X322si;r..........r&amp;G............3.,,.......................sA....MM2..MB25.........</text>
+<text x="53.4" y="458" class="l face" style="animation-delay:2.83s">shh2h22i;............S.............:................,........2....@MMM...h..S....,.s</text>
+<text x="53.4" y="467" class="l face" style="animation-delay:2.86s">;ihhsssh2r.............i........s:,;...........................S...MMMM3.sM.GM5.....</text>
+<text x="53.4" y="476" class="l face" style="animation-delay:2.89s">h,,r2s,.,i,.....................2;;..................i.......r,.s..GM:AM.BM..M.M...A</text>
+<text x="53.4" y="485" class="l face" style="animation-delay:2.92s">;2r,:ssr........,.................h3s...............s.........:h....MrS5.M3:.M....Mi</text>
+<text x="53.4" y="494" class="l face" style="animation-delay:2.95s">.:sr::i22rri:....;,.................:ii:............,A.........h,...H.3M.MM..MM.M25.</text>
+<text x="53.4" y="503" class="l face" style="animation-delay:2.98s">,.;ssr;;isirii;...:;...............Xr:...............29........s2.....;M.M..MM....:G</text>
+<text x="53.4" y="512" class="l face" style="animation-delay:3.01s">3..:sii;;r2s:,:...,................r.................:2S....,...h:...i.A.@.X9.;M@M&amp;&amp;</text>
+<text x="53.4" y="521" class="l face" style="animation-delay:3.04s">32..rr;:;;i22:......:,;:............................::.29...;r..2r...&amp;sM.....MMsAMM9</text>
+<text x="53.4" y="530" class="l face" style="animation-delay:3.07s">;5h.;isi;rrsshr:::...;.:,...........................,s;rr..s.:..3i.....M...G.M..i...</text>
+<text x="53.4" y="539" class="l face" style="animation-delay:3.10s">.s3i;;rrrr;:rs2s:,,..,.,:;:.,..........,........,....:;sr..X.,..A3:..hh&amp;...M..;MMMMM</text>
+<text x="524" y="62" class="l " style="animation-delay:3.43s"><tspan fill="#7ee787">mohan@feddev01</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
+<g class="type" style="--w:50.4px;animation:type 0.36s steps(6) 3.83s forwards"><rect x="675.2" y="49" width="60.8" height="18" fill="#0d1117"/><rect x="675.2" y="49" width="8.4" height="16" fill="#c9d1d9" class="cur" style="animation-delay:3.43s;animation-duration:0.76s"/></g>
+<text x="524" y="80" class="l " style="animation-delay:4.44s"><tspan fill="#c9d1d9">Mohan</tspan></text>
+<text x="524" y="116" class="l " style="animation-delay:4.79s"><tspan fill="#7ee787">mohan@feddev01</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#c9d1d9">cat about.yml</tspan></text>
+<g class="type" style="--w:109.2px;animation:type 0.78s steps(13) 5.19s forwards"><rect x="675.2" y="103" width="119.6" height="18" fill="#0d1117"/><rect x="675.2" y="103" width="8.4" height="16" fill="#c9d1d9" class="cur" style="animation-delay:4.79s;animation-duration:1.18s"/></g>
+<text x="524" y="134" class="l " style="animation-delay:6.22s"><tspan fill="#ffa657">role</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">Frontend Developer</tspan></text>
+<text x="524" y="152" class="l " style="animation-delay:6.27s"><tspan fill="#ffa657">location</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">Nepal</tspan></text>
+<text x="524" y="170" class="l " style="animation-delay:6.32s"><tspan fill="#ffa657">learning</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">Next.js, TypeScript, Vercel</tspan></text>
+<text x="524" y="188" class="l " style="animation-delay:6.37s"><tspan fill="#ffa657">exploring</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">Linux, AI tools</tspan></text>
+<text x="524" y="206" class="l " style="animation-delay:6.42s"><tspan fill="#ffa657">hobbies</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">Photography, Hiking, Riding</tspan></text>
+<text x="524" y="242" class="l " style="animation-delay:6.77s"><tspan fill="#7ee787">mohan@feddev01</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#c9d1d9">ls stack/</tspan></text>
+<g class="type" style="--w:75.6px;animation:type 0.54s steps(9) 7.17s forwards"><rect x="675.2" y="229" width="86.0" height="18" fill="#0d1117"/><rect x="675.2" y="229" width="8.4" height="16" fill="#c9d1d9" class="cur" style="animation-delay:6.77s;animation-duration:0.94s"/></g>
+<text x="524" y="260" class="l " style="animation-delay:7.96s"><tspan fill="#c9d1d9">html/  css/  javascript/  react/  php/  liquid/</tspan></text>
+<text x="524" y="278" class="l " style="animation-delay:8.01s"><tspan fill="#c9d1d9">shopify/  magento2/  wordpress/  git/</tspan></text>
+<text x="524" y="314" class="l " style="animation-delay:8.36s"><tspan fill="#7ee787">mohan@feddev01</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#c9d1d9">cat contact.txt</tspan></text>
+<g class="type" style="--w:126.0px;animation:type 0.90s steps(15) 8.76s forwards"><rect x="675.2" y="301" width="136.4" height="18" fill="#0d1117"/><rect x="675.2" y="301" width="8.4" height="16" fill="#c9d1d9" class="cur" style="animation-delay:8.36s;animation-duration:1.30s"/></g>
+<text x="524" y="332" class="l " style="animation-delay:9.91s"><tspan fill="#ffa657">github</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">github.com/feddev01</tspan></text>
+<text x="524" y="350" class="l " style="animation-delay:9.96s"><tspan fill="#ffa657">email</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">feddev01@gmail.com</tspan></text>
+<text x="524" y="368" class="l " style="animation-delay:10.01s"><tspan fill="#ffa657">codepen</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">https://codepen.io/khadkamhn</tspan></text>
+<text x="524" y="404" class="l " style="animation-delay:10.36s"><tspan fill="#7ee787">mohan@feddev01</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#c9d1d9">gh stats</tspan></text>
+<g class="type" style="--w:67.2px;animation:type 0.48s steps(8) 10.76s forwards"><rect x="675.2" y="391" width="77.6" height="18" fill="#0d1117"/><rect x="675.2" y="391" width="8.4" height="16" fill="#c9d1d9" class="cur" style="animation-delay:10.36s;animation-duration:0.88s"/></g>
+<text x="524" y="422" class="l " style="animation-delay:11.49s"><tspan fill="#ffa657">uptime</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">7 years, 1 month on GitHub</tspan></text>
+<text x="524" y="440" class="l " style="animation-delay:11.54s"><tspan fill="#ffa657">PRs</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">404 · stats not found</tspan></text>
+<text x="524" y="458" class="l " style="animation-delay:11.59s"><tspan fill="#ffa657">repos</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">404 · try again tomorrow</tspan></text>
+<text x="524" y="476" class="l " style="animation-delay:11.64s"><tspan fill="#ffa657">status</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">error 404 · token not found</tspan></text>
+<text x="524" y="512" class="l " style="animation-delay:11.99s"><tspan fill="#7ee787">mohan@feddev01</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9">$ </tspan></text>
+<rect x="675.2" y="499" width="8.4" height="16" fill="#c9d1d9" class="l blink" style="animation-delay:11.99s,11.99s"/>
+<path d="M0 553 h1000 v12 a12 12 0 0 1 -12 12 h-976 a12 12 0 0 1 -12 -12 z" fill="#3fb950"/>
+<text x="14" y="569" fill="#0d1117">[feddev01] 0:face  1:profile*</text>
+<text x="986" y="569" text-anchor="end" fill="#0d1117">github.com/feddev01</text>
+</svg>

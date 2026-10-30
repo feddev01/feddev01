@@ -1,0 +1,38 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "15 0 * * *"   # every day at 00:15 UTC (06:00 in Nepal)
+  workflow_dispatch:        # allows running it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Fetch stats
+        env:
+          # Without STATS_TOKEN (or once it expires) the card shows a 404 joke instead of numbers.
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python3 scripts/stats.py
+
+      - name: Rebuild cards
+        run: python3 scripts/build.py
+
+      # Replace the whole history with a single "Initial commit" authored as Mohan.
+      - name: Squash into one commit and force-push
+        run: |
+          git config user.name "Mohan"
+          git config user.email "feddev01@gmail.com"
+          git checkout --orphan squashed
+          git add -A
+          git commit -m "Initial commit"
+          git push --force origin squashed:main
